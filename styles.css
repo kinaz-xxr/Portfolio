@@ -1,0 +1,15 @@
+
+
+.header description {
+    background: #1F2937;
+}
+
+.header {
+    
+    gap: 12px;
+    color: white;
+}
+
+ul li {
+    color: white;
+}
