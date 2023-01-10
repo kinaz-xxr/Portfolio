@@ -13,6 +13,7 @@ body {
 }
 
 nav {
+    padding-top: 20px;
     margin-right: 5em;
     margin-bottom: 5em;
 }
@@ -37,6 +38,7 @@ nav li {
     max-width: 350px;
     flex: 1;
     border-radius: 50%;
+    border: 6px solid white;
 }
 
 .description {
@@ -47,10 +49,28 @@ nav li {
     margin: 5em;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
 }
 
 .description .intro {
     flex: 1;
     padding: 10px;
     margin-left: 3em;
+}
+
+body div .gallery {
+    background-color: gray;
+}
+
+.gallery {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3em;
+}
+
+.gallery img {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 5px;
 }
