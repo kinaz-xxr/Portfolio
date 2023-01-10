@@ -1,6 +1,6 @@
 * {
     color: white;
-    font-size: 30px;
+    font-size: 1.7vw;
     font-family: Monaco, "LUcida Console", monospace;
 }
 
@@ -10,10 +10,12 @@ body {
 
 .first_half {
     background-color: #1F2937;
+    height: 30%;
 }
 
 nav {
-    padding-top: 20px;
+    flex-shrink: 1;
+    padding-top: 2%;
     margin-right: 5em;
     margin-bottom: 5em;
 }
@@ -27,7 +29,7 @@ nav ul {
 
 nav li {
     margin: 0 10px;
-    margin-left: 2em;
+    margin-left: 2%;
 }
 
 .logo {
@@ -35,10 +37,11 @@ nav li {
 }
 
 .profile_image img {
-    max-width: 350px;
+    flex-shrink: 1;
+    max-width: 10rem;
     flex: 1;
     border-radius: 50%;
-    border: 6px solid white;
+    border: 0.3vw solid white;
 }
 
 .description {
@@ -50,12 +53,20 @@ nav li {
     justify-content: center;
     align-items: center;
     padding-bottom: 75px;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .description {
+        flex-direction: column;
+    }
 }
 
 .description .intro {
     flex: 1;
     padding: 10px;
     margin-left: 3em;
+    flex-shrink: 1 ;
 }
 
 body div .gallery {
