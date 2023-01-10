@@ -1,6 +1,6 @@
 * {
     color: white;
-    font-size: 1.7vw;
+    font-size: 1.2vw;
     font-family: Monaco, "LUcida Console", monospace;
 }
 
@@ -63,6 +63,9 @@ nav li {
 }
 
 @media (max-width: 1300px) {
+    * {
+        font-size: 1.7vw;
+    }
     .gallery img {
         max-width: 30%;
         max-height: 30%;
@@ -70,6 +73,9 @@ nav li {
 }
 
 @media (max-width: 800px) {
+    * {
+        font-size: 3vw;
+    }
     .description {
         flex-direction: column;
     }
