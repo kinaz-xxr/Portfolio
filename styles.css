@@ -31,9 +31,9 @@ nav li {
     margin: 0 10px;
     margin-left: 2%;
 }
-
-.logo {
+.first_half .logo {
     margin-right: auto;
+    color: red;
 }
 
 .profile_image img {
