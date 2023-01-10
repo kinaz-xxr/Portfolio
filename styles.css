@@ -1,7 +1,11 @@
 * {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Monaco, "LUcida Console", monospace;
+}
+
+body {
+    margin: 0px;
 }
 
 .first_half {
@@ -14,10 +18,10 @@ nav {
 }
 
 nav ul {
+    margin-top: 2em;
     list-style-type: none;
     display: flex;
     margin: 0 -10px;
-    
 }
 
 nav li {
@@ -30,8 +34,9 @@ nav li {
 }
 
 .profile_image img {
-    max-width: 200px;
+    max-width: 350px;
     flex: 1;
+    border-radius: 50%;
 }
 
 .description {
@@ -40,9 +45,12 @@ nav li {
     flex: 1;
     padding: 10px;
     margin: 5em;
+    justify-content: center;
+    align-items: center;
 }
 
 .description .intro {
     flex: 1;
     padding: 10px;
+    margin-left: 3em;
 }
