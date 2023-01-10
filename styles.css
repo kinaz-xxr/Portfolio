@@ -56,16 +56,20 @@ nav li {
     flex-direction: row;
 }
 
+.gallery img {
+    max-width: 30%;
+    max-height: 30%;
+    padding: 5px;
+}
+
 @media (max-width: 800px) {
     .description {
         flex-direction: column;
     }
-}
-
-@media (max-width: 400px) {
     .gallery img {
-        width: 50%;
-        height: auto;
+        max-width: 45%;
+        max-height: 45%;
+        padding-right: -50px;
     }
 }
 
@@ -84,13 +88,11 @@ body div .gallery {
 
 .gallery {
     display: flexbox;
-    align-items:flex-start;
-    justify-content: space-between;
-    margin: 3em;
-}
+    object-fit:fill;
+    align-items:center;
+    justify-content:space-around;
+    margin-top: 2em;
+    margin-right: 0px;
+    margin-left: 2em;
 
-.gallery img {
-    max-width: 30%;
-    max-height: 30%;
-    padding: 5px;
 }
