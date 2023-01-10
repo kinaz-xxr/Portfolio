@@ -56,11 +56,13 @@ nav li {
     flex-direction: row;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
     .description {
         flex-direction: column;
     }
+}
 
+@media (max-width: 400px) {
     .gallery img {
         width: 50%;
         height: auto;
