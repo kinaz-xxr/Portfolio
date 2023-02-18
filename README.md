@@ -1,3 +1,5 @@
 # Portfolio-Website-
-This is a CSS assignment from The Odin Project. Hopefully I will continue building upon it and make it my portfolio website.
+Welcome to my photo gallery!
+Here is the link: https://kinaz-xxr.github.io/Dats_Portfolio/
+For now, it is just plain HTML/CSS. I'm still learning new cool stuffs that hopefully I can add on in the future. Stay tune :)
 
