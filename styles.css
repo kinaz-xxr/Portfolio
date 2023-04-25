@@ -99,12 +99,19 @@ body div .gallery {
 }
 
 .gallery {
-    display: flexbox;
-    object-fit:fill;
-    align-items:center;
-    justify-content:space-around;
-    margin-top: 2em;
-    margin-right: 0px;
-    margin-left: 2em;
-
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
