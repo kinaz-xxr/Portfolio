@@ -98,20 +98,31 @@ body div .gallery {
     background-color: gray;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 10px;
+.image-gallery {
+    /* Mobile first */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   
-  .gallery-item {
-    position: relative;
-    overflow: hidden;
+  .image-gallery .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
   
-  .gallery-item img {
-    display: block;
+  .image-item img {
     width: 100%;
-    height: auto;
+    border-radius:7px;
+    height: 100%;
     object-fit: cover;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .image-gallery {
+      flex-direction: row;
+    }
   }
