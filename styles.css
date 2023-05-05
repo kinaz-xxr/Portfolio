@@ -1,7 +1,12 @@
+
 * {
     color: white;
-    font-size: 1.2vw;
-    font-family: Monaco, "LUcida Console", monospace;
+    font-size: 1.4vw;
+    font-family: Raleway;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -10,14 +15,14 @@ body {
 
 .first_half {
     background-color: #1F2937;
-    height: 30%;
+    height: 10%;
 }
 
 nav {
     flex-shrink: 1;
     padding-top: 2%;
     margin-right: 2em;
-    margin-bottom: 5em;
+    margin-bottom: 0em;
 }
 
 nav ul {
@@ -38,7 +43,7 @@ nav li {
 
 .profile_image img {
     flex-shrink: 1;
-    max-width: 10rem;
+    max-width: 8rem;
     flex: 1;
     border-radius: 50%;
     border: 0.3vw solid white;
@@ -126,3 +131,50 @@ body div .gallery {
       flex-direction: row;
     }
   }
+
+  div.container
+{
+    font-family: Raleway;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+/* Border X get width  */
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
