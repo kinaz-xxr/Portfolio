@@ -7,4 +7,30 @@ html{
     max-height: 50%;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.title {
+    color: white; /* Adjust the text color as needed */
+    padding-right: 30%;
+    clear: right;
+}
+
+.pfp {
+    width: 15%;
+    border-radius: 50%;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    display: block;
+    margin-left: 70%;
+    top: 30%;
+}
+
 

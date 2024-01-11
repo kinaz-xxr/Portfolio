@@ -18,7 +18,7 @@
 html {
   /* 1 */
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: normal;
   line-height: 1.5;
   /* 2 */
@@ -259,7 +259,7 @@ h6,
  */
 h1,
 .uk-h1 {
-  font-size: 2.23125rem;
+  font-size: 1.23125rem;
   line-height: 1.2;
 }
 h2,
@@ -274,7 +274,7 @@ h3,
 }
 h4,
 .uk-h4 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.4;
 }
 h5,
@@ -291,11 +291,11 @@ h6,
 @media (min-width: 960px) {
   h1,
   .uk-h1 {
-    font-size: 2.625rem;
+    font-size: 1.925rem;
   }
   h2,
   .uk-h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 /* Lists
@@ -353,7 +353,7 @@ address {
  ========================================================================== */
 blockquote {
   margin: 0 0 20px 0;
-  font-size: 1.25rem;
+  font-size: 0.625rem;
   line-height: 1.5;
   font-style: italic;
   color: #333;
@@ -8581,7 +8581,7 @@ iframe[data-uk-cover] {
     margin-bottom: 140px !important;
   }
   .uk-margin-xlarge-left {
-    margin-left: 140px !important;
+    margin-left: 120px !important;
   }
   .uk-margin-xlarge-right {
     margin-right: 140px !important;
